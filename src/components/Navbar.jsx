@@ -38,9 +38,9 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
-            <p className="text-white text-[18px] font-bold cursor-pointer flex"> Adrian &nbsp;
-              <span className="sm:block hidden">| JS Mastery</span>
+          <img src={logo} alt="logo" className="w-10 h-10 object-contain" />
+            <p className="text-white text-[18px] font-bold cursor-pointer flex"> Vishnurat &nbsp;
+              <span className="sm:block hidden">Kadagadakai</span>
             </p>
         </Link>
 

@@ -15,14 +15,13 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
+    nfthing,
+    garuda,
+    carshowroom,
+    bank,
+    particles,
     threejs,
+    logo,
   } from "../assets";
   
   export const navLinks = [
@@ -42,11 +41,11 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Web Designer",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Web Developer",
       icon: mobile,
     },
     {
@@ -116,24 +115,26 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Lecturer",
+      company_name: "Garuda Classes",
+      icon: garuda,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "April 2021 - March 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Working as a lecturer for a year taught me to be a better web developer,",
+        "Clear Communication: Explaining complex ideas simply.",
+        "Time Management: Balancing tasks and meeting deadlines.",
+        "Organization: Keeping projects well-organized.",
+        "Problem-Solving: Quickly finding solutions to challenges.",
+        "Adaptability: Understanding and meeting diverse client needs.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Frontend Designer & Developer",
+      company_name: "NFThing",
+      icon: nfthing,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "June 2023 onwards",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -142,24 +143,11 @@ import {
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Full stack Web Developer & Designer",
+      company_name: "Janamejaya Technologies",
+      icon: logo,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "May 2024 onwards",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -172,35 +160,35 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "I thought it was impossible to make a website as beautiful as our product, but Vishnurat proved me wrong.",
+      name: "Viky",
+      designation: "CeO",
+      company: "Janamejaya Techologies",
+      image: "https://randomuser.me/api/portraits/men/4.jpg",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
+        "I've never met a web developer who truly cares about their clients' success like Vishnurat does.",
+      name: "Sudhanva K",
+      designation: "CeO",
+      company: "Garuda",
       image: "https://randomuser.me/api/portraits/men/5.jpg",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "After Vishnurat optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      name: "Pragna",
+      designation: "CEO",
+      company: "My home",
+      image: "https://randomuser.me/api/portraits/women/8.jpg",
     },
   ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Car Showroom",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based platform that allows users to search cars from various providers, providing a convenient and efficient solution for transportation needs.",
       tags: [
         {
           name: "react",
@@ -211,54 +199,53 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "tailwindcss",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: carshowroom,
+      source_code_link: "https://github.com/GodGoneCrazy87/car_showroom",
+      weblink: "https://car-showroom-phi.vercel.app/",
     },
     {
-      name: "Job IT",
+      name: "HooBank",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Web application for banking website which enables businesses to accept card payments and expand their global reach.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
+          name: "tailwindcss",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: bank,
+      source_code_link: "https://github.com/GodGoneCrazy87/Banking",
+      weblink: "https://banking-delta-bice.vercel.app/",
     },
     {
-      name: "Trip Guide",
+      name: "Particles Portfolio",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Our portfolio website showcases projects and achievements, featuring a clean design, user-friendly navigation, and interactive elements to highlight our skills and expertise.",
       tags: [
         {
           name: "nextjs",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "framer-motion",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "tailwindcss",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: particles,
+      source_code_link: "https://github.com/GodGoneCrazy87/particles-portfolio",
+      weblink:"https://particles-portfolio.vercel.app/",
     },
   ];
   
