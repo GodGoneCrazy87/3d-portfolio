@@ -12,6 +12,20 @@ module.exports = {
         "black-200": "#090325",
         "white-100": "#f3f3f3",
       },
+      screens: {
+        'tall': {
+            'raw': `only screen and (max-height: 960px) and (max-width: 480px)`
+        },
+        'wide': {
+            'raw': `only screen and (max-height: 480px) and (max-width: 960px)`
+        },
+        'portrait': {
+            'raw': '(orientation: portrait)'
+        },
+        'landscape': {
+            'raw': '(orientation: landscape)'
+        }
+      },
       boxShadow: {
         card: "0px 35px 120px -15px #211e35",
       },
